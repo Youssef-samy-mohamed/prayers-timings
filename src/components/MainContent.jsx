@@ -186,22 +186,22 @@ export default function MainContent() {
         <Prayer
           name="ألظهر"
           time={timings.Dhuhr}
-          image={dhhrImage}
+          image={fajrImage}
         />
         <Prayer
           name="العصر"
           time={timings.Asr}
-          image={asrImage}
+          image={fajrImage}
         />
         <Prayer
           name="المغرب"
           time={timings.Sunset}
-          image={nightImage}
+          image={fajrImage}
         />
         <Prayer
           name="العشاء"
           time={timings.Isha}
-          image={sunsetImage}
+          image={fajrImage}
         />
       </Stack>
       {/* select city */}
