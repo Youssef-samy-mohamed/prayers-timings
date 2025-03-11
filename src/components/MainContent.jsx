@@ -12,7 +12,6 @@ import moment from "moment";
 import fajrImage from "../assets/imgs/fajr-prayer.png";
 import asrImage from "../../assets/imgs/asr-prayer-mosque.png";
 import dhhrImage from "../../assets/imgs/dhhr-prayer-mosque.png";
-import fajrImage from "../../assets/imgs/fajr-prayer.png";
 import nightImage from "../../assets/imgs/night-prayer-mosque.png";
 import sunsetImage from "../../assets/imgs/sunset-prayer-mosque.png";
 import "moment/dist/locale/ar";
