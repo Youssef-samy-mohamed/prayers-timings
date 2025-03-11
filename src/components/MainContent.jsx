@@ -10,6 +10,11 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import moment from "moment";
 import fajrImage from "../assets/imgs/fajr-prayer.png";
+import asrImage from "../../assets/imgs/asr-prayer-mosque.png";
+import dhhrImage from "../../assets/imgs/dhhr-prayer-mosque.png";
+import fajrImage from "../../assets/imgs/fajr-prayer.png";
+import nightImage from "../../assets/imgs/night-prayer-mosque.png";
+import sunsetImage from "../../assets/imgs/sunset-prayer-mosque.png";
 import "moment/dist/locale/ar";
 moment.locale("ar");
 
@@ -182,22 +187,22 @@ export default function MainContent() {
         <Prayer
           name="ألظهر"
           time={timings.Dhuhr}
-          image="../../assets/imgs/dhhr-prayer-mosque.png"
+          image={dhhrImage}
         />
         <Prayer
           name="العصر"
           time={timings.Asr}
-          image="../../assets/imgs/asr-prayer-mosque.png"
+          image={asrImage}
         />
         <Prayer
           name="المغرب"
           time={timings.Sunset}
-          image="../../assets/imgs/night-prayer-mosque.png"
+          image={nightImage}
         />
         <Prayer
           name="العشاء"
           time={timings.Isha}
-          image="../../assets/imgs/sunset-prayer-mosque.png"
+          image={sunsetImage}
         />
       </Stack>
       {/* select city */}
