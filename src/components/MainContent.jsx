@@ -176,7 +176,7 @@ export default function MainContent() {
         <Prayer
           name="الفجر"
           time={timings.Fajr}
-          image="https://wepik.com/api/image/ai/9a07baa7-b49b-4f6b-99fb-2d2b908800c2"
+          image="../assets/imgs/fajr-prayer.png"
         />
         <Prayer
           name="ألظهر"
