@@ -9,6 +9,7 @@ import Select from "@mui/material/Select";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import moment from "moment";
+import fajrImage from "../assets/imgs/fajr-prayer.png";
 import "moment/dist/locale/ar";
 moment.locale("ar");
 
@@ -176,7 +177,7 @@ export default function MainContent() {
         <Prayer
           name="الفجر"
           time={timings.Fajr}
-          image="../assets/imgs/fajr-prayer.png"
+          image={fajrImage}
         />
         <Prayer
           name="ألظهر"
